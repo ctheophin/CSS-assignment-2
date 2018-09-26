@@ -37,11 +37,13 @@ footer {
 }
 article {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   margin: 0;
+  padding: 2rem;
 }
  section {
+   display: flex;
+   flex-direction: column;
    max-width: 600px;
    box-sizing: border-box;
  }
@@ -56,14 +58,9 @@ article {
 }
 
 .text {
-  font-size: 100%;
-  background: #fff;
-  padding: 3rem;
-  line-height: 1.5rem;
-}
-
-h2 {
-  text-align: center;
+  font-size: 110%;
+  padding-left: 3rem;
+  line-height: 2rem;
 }
 
 
